@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "dev": "cd frontend-next && npm run dev"
+    "dev": "cd frontend-next && npm run dev",
+    "build": "npm install --prefix frontend-next && npm --prefix frontend-next run build",
+    "vercel-build": "npm install --prefix frontend-next && npm --prefix frontend-next run build"
   },
   "dependencies": {
     "next": "^16.2.4",
