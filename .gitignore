@@ -1,6 +1,9 @@
 node_modules/
 .next/
+frontend-next/node_modules/
+frontend-next/.next/
 dist/
+venv/
 *.log
 .env
 .env.local
